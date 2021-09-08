@@ -26,7 +26,7 @@ spec:
               name: user-login-details
           securityContext:
             {}
-          image: "806860399886.dkr.ecr.us-east-1.amazonaws.com/natixis/bp-natixis:0.0.0"
+          image: nginx:1.14.2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
