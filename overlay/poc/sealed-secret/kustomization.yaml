@@ -6,5 +6,4 @@ bases:
   - ../../../base/sealed-secret
 
 patchesStrategicMerge:
-- deployment.yaml
 - secret.yaml
