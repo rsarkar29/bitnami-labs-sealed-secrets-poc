@@ -16,7 +16,6 @@ spec:
       labels:
         app.kubernetes.io/name: business-process
     spec:
-      serviceAccountName: business-process
       securityContext:
         {}
       containers:
